@@ -1,0 +1,127 @@
+@font-face {
+    font-family: fonteRegular;
+    src: url(AltoneTrial-BoldOblique.ttf);
+
+}
+
+
+body{
+    background-color: white;
+        font-family: fonteRegular;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:  orange;
+    height: 20vh;
+}
+
+.dadoUsuario{
+    background-color: white;
+    display: flex;
+    height: 40vh;
+    border-bottom: 25px solid rgba(158, 158, 158, 0.226);
+}
+
+.fotoPerfil{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    border: solid rgb(12, 97, 33);
+}
+
+.fotoPerfil img{
+    width: 100%;
+
+}
+
+.usuario{
+   display: flex;
+   flex-direction: column;
+}
+
+.email{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: black;
+    font-size: 50px;
+}
+
+.nome{
+    margin-left: 50px;
+    color:gray ;
+    font-size: 20px;
+}
+
+.edit{
+    border-radius: 100%;
+    overflow: hidden;
+    background-color:  orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 800px;
+    margin-top: 80px;
+}
+
+.edit img{
+    width: 70%;
+    margin-left: 14px;
+    margin-top: 14px;
+ 
+}
+
+.barra{
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.compras, .avaliacoes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black;
+    border-bottom: solid 5px orange;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.mainFilmes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    height: 100vh;
+    background-color: orange;
+
+}
+
+.filmes{
+    display: flex;
+    margin-top: 10px;
+    background-color: aliceblue;
+    height: 30px;
+    width: 200vh;
+    border-radius: 25px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.excluir{
+    background-color: gray;
+    color: white;
+    width: 80px;
+    margin-left: 10px;
+}
